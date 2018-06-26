@@ -1,0 +1,30 @@
+Software Requirements
+• Python Recommended version 2.7.x
+• Tkinter Recommended version 8.6
+• OpenCV
+
+Installation steps:
+To test if your system has all requirements run the following script:
+Run: $ python systemTest.py
+
+If all the tests pass then the program should be able to run correctly, Other-
+wise follow the following installation instructions:
+Try run (install.sh)
+  1. Type: $ sudo chmod +x install.sh
+  2. Type: $ ./install.sh
+  
+If install.sh fails to install then visit the following resources:
+  Python: http://docs.python-guide.org/en/latest/starting/install/linux/
+  Tkinter: https://www.techinfected.net/2015/09/how-to-install-and-use-tkinter-in-ubuntu-debian
+  html
+  OpenCV: https://docs.opencv.org/3.4.1/d2/de6/tutorial_py_setup_in_
+  ubuntu.html
+  
+Running the program
+
+$ python mosaic.py "./imageLibraryPath" "imagePath" NumRows NumCols
+
+The program will initialise and create the necessary folders and resize and cre-
+ate a new scaled image library in directory imageLib. Once this is completed
+the GUI will display. May take some time to show GUI due to image library
+creation
