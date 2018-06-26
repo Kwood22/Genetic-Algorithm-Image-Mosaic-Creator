@@ -1,0 +1,6 @@
+popSize = 50
+tournamentSize = 10
+cross-over prob = 0.4
+mutation prob = 0.1
+mutation size =5
+dim = 10 * 10
